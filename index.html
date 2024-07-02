@@ -6,32 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Align site</title>
+
+    <!-- Ctrl / - комбінація щоб додати коментар -->
+    <!-- Fav icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fav icon/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
+
 
 <body>
     <header>
-        <img src="./images/star.png" alt="star picture" />
-        <p>Tell your customers of something important with this banner!</p>
-        <a href=""><img src="./images/logo.png" alt="site logo" /></a>
-        <nav>
-            <ul>
-                <li><a href="">Overview</a></li>
-                <li><a href="">Pages</a></li>
-                <li><a href="">Template</a></li>
-            </ul>
-        </nav>
-        <button type="button">Buy Align</button>
+        <div class="star">
+            <img src="./images/header/star.png" alt="star picture" width="24" height="24" />
+            <p>Tell your customers of something important with this banner!</p>
+        </div>
+        <div>
+            <a href=""><img src="./images/header/logo.png" alt="site logo" /></a>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#pages">Pages</a></li>
+                    <li><a href="#template">Template</a></li>
+                </ul>
+            </nav>
+            <button type="button">Buy Align</button>
+        </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section>
             <p>align ui kit for webflow</p>
             <p>Teams build better products with</p>
             <h1>Align UI</h1>
-            <img src="./images/hero.jpg" alt="Products Align site" width="1280" height="562" />
+            <img src="./images/hero/hero.jpg" alt="Products Align site" width="1280" height="562" />
         </section>
 
-        <section class="leading">
+        <section class="leading" id="overview">
             <p>leading pages</p>
             <p>Discover all the pages that you can use over and over again.</p>
             <ul>
@@ -50,7 +61,7 @@
             </ul>
         </section>
 
-        <section class="company">
+        <section class="company" id="pages">
             <p>company</p>
             <p>Company Pages</p>
             <ul>
@@ -127,7 +138,7 @@
             </ul>
         </section>
 
-        <section class="other">
+        <section class="other" id="template">
             <p>other</p>
             <p>Additional Pages</p>
             <ul>
@@ -197,7 +208,7 @@
     </main>
 
     <footer>
-        <p><img src="./images/logo.png" alt="logo">
+        <p><img src="./images/header/logo.png" alt="logo">
             | &copy; <b>Template by</b> Flowbase - <b>Powered by</b> Webflow</p>
     </footer>
 </body>

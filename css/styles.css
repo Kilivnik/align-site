@@ -1,0 +1,128 @@
+/* Змінні по коду */ 
+
+:root {
+    --main-font: Roboto,sans-serif;
+
+    --main-color: #153C3C;
+    --second-color: #84A17D;
+    --body-color: #FFFFFF;
+    --header-color: #ADC9A6;
+    --text-color: #172426;
+    --header-text-color: #DDE4E4;
+    
+
+    --card-color: #F2F8F8;
+
+}
+
+/* Базові стилі */
+
+body {
+    font-family: var(--main-font);
+    /* color: var(--body-color); */
+}
+
+h1 {
+    font-size: 63px;
+    line-height: 1.27;
+    color: var(--text-color);
+    text-align: center;
+}
+
+h2 {
+    font-size: 51px;
+        line-height: 1.25;
+        letter-spacing: 2.24px;
+        color: var(--text-color);
+        text-align: center;
+        
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 1.52;
+    letter-spacing: 0.96px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--second-color);
+    color: var(--body-color);
+
+    font-size: 13px;
+    line-height: 1.84;
+    letter-spacing: 0.14px;
+
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--card-color);
+    color: var(--main-color);
+}
+
+/* Скидання стандартних стилей */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+.header {}
+
+.header-star {
+    background-color: var(--header-color);
+}
+
+.header-star-text {
+    color: var(--main-color);
+    font-size: 11px;
+        line-height: 2.18;
+        letter-spacing: 0.24px;
+        text-align: center;
+}
+
+.header-nav {
+    background-color: var(--main-color);
+}
+
+.link {}
+
+.header-link {
+    color: var(--header-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--body-color);
+}
+
+.nav {}
+
+.list {}
+
+.header-list {}
+
+
+
+/* Main */
+
+.subtitle {
+    font-size: 18px;
+    line-height: 1.77;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Footer */
